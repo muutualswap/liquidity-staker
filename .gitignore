@@ -1,2 +1,14 @@
-node_modules/
-build/
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# Packages
+
+/package-lock.json
+
+# Remove Build Info
+/artifacts/build-info/*
+
+# But Keep Build Folder Structure 
+/artifacts/build-info/.keep

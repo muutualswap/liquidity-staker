@@ -1,3 +1,6 @@
+// Tests are are only made for version  v1.0.0.0
+
+
 import { BigNumber, providers, utils, Contract } from 'ethers'
 
 const PERMIT_TYPEHASH = utils.keccak256(
