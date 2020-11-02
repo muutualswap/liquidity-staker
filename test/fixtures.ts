@@ -1,3 +1,7 @@
+// Tests are are only made for version  v1.0.0.0
+
+
+
 import chai from 'chai'
 import { Contract, Wallet, BigNumber, providers } from 'ethers'
 import { solidity, deployContract } from 'ethereum-waffle'

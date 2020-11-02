@@ -1,3 +1,6 @@
+// Tests are are only made for version  v1.0.0.0
+
+
 import chai, { expect } from 'chai'
 import { Contract, BigNumber, constants } from 'ethers'
 import { solidity, MockProvider, createFixtureLoader, deployContract } from 'ethereum-waffle'
